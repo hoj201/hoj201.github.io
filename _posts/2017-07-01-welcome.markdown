@@ -4,4 +4,4 @@ title: First post
 ---
 
 Welcome to my new blog.
-I did have an [old blog](https://hoj201.wordpress.com/), but I grew tired ofwordpress.
+I did have an [old blog](https://hoj201.wordpress.com/), but I grew tired of wordpress.
