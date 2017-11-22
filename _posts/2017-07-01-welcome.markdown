@@ -1,6 +1,7 @@
 ---
 layout: default
 title: First post
+comments: true
 ---
 
 Welcome to my new blog.
