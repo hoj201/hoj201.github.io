@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Probabilistic notation is the worst II (Even worser)
+comments: true
 ---
 
 # Probabilistic notation is the worst (Part II)
