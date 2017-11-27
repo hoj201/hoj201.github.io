@@ -71,10 +71,10 @@ Unfortunately, it's the only "function" in the discipline of mathematics whose 
 
 ### Fix 1: Stop lying
 
-Let's get one thing straight.  $$ \Pr$$ is a function.  I feel like I need to say this because I think the following sentiment is the current state of things.
+Let's get one thing straight.  $$ \Pr$$ is a function.  I'm compelled to say this because the following sentiment is the current state of pedagogy:
 
 >$$ \Pr$$ should really not be taken so seriously.  It really should be seen as casual short-hand for "probability of"
-- Anonymous friend of mine
+- Anonymous friend of mine who teaches statistics
 
 This trick is pretty useful for getting through the textbook without pulling your hair out. Perhaps this is because this is how the textbook writer thinks of $$ \Pr$$.  Nonetheless, this approach only works because it provides comfort in a convenient lie.  If $$ (\Omega, \mathcal{F}, \Pr )$$ is a probability space, then $$ \Pr$$ is a function from the $$ \sigma$$-algebra, $$ \mathcal{F}$$, into the unit interval $$ [0,1]$$.  Stop lying.  Lying sucks.
 
@@ -151,14 +151,9 @@ Transforming one ray into another has no effect on its length (which is always i
 They are purely directional entities, and there is never a need to normalize anything.
 So we arrive at the following re-definition of a probability measure.
 
-
-> Definition: Let $$(\Omega, \mathcal{F})$$ be a $$\sigma$$-algebra.
-A neo-probability measure is a ray through the origin in the positive-orthant
- of $$L^1(\Omega)$$.
-
-
-The positive-orthant of $$L^1(\Omega)$$ refers to all those distributions which
-are non-negative valued.
+> **Definition:** Let $$(\Omega, \mathcal{F})$$ be a $$\sigma$$-algebra.
+A *neo-probability* is a ray within $$\mathcal{M}(\Omega, \mathcal{F})$$, the
+space of measures.
 
 Okay, I realize that definition might look weird ([unless you're into quantum stuff, maybe](https://en.wikipedia.org/wiki/Density_matrix)).
 
@@ -172,20 +167,20 @@ First, just to check we aren't leaving our sanity behind,
 I'll tie this new definition to the traditional definition.
 Given a traditional probability
 space $$(\Omega, \mathcal{F}, \Pr)$$ the corresponding ray is simply given by
-$$\pi(\Pr)$$, where $$\pi : L^1(\Omega) \backslash\{0\} \to {\rm Ray}(L^1(\Omega ))$$
+$$\pi(\Pr)$$, where $$\pi : \mathcal{M}(\Omega) \backslash \{0\} \to {\rm Ray}(\mathcal{M}(\Omega ))$$
 is the quotient map.
-In other words, the rays we are concerned with are exactly the rays given by the traditional probability density, when viewed as elements of $$L^1$$.
+In other words, the rays we are concerned with are exactly the rays given by the traditional probability density, when viewed as elements of $$\mathcal{M}$$.
 
 Now let's see how things behave under the embedding $$i_A$$.
-Note that $$i_A$$ acts naturally on $$L^1(\Omega)$$ by pull-back,
+Note that $$i_A$$ acts naturally on $$\mathcal{M}(\Omega)$$ by pull-back,
 and we can naturally project this into a map on the space of rays, via the quotient
 projection, $$\pi$$, ala the commutative diagram:
 
 $$\require{AMScd}
 \begin{CD}
-  L^1(\Omega) @>{i_A^{\ast}}>> L^1(\Omega) \\
+  \mathcal{M}(\Omega) @>{i_A^{\ast}}>> \mathcal{M}(\Omega) \\
   @VV{\pi}V @VV{\pi}V \\
-  {\rm Ray}(L^1(\Omega)) @>{\pi_{\ast}(i_A^{\ast})}>> {\rm Ray}(L^1(\Omega))
+  {\rm Ray}(\mathcal{M}(\Omega)) @>{\pi_{\ast}(i_A^{\ast})}>> {\rm Ray}(\mathcal{M}(\Omega))
 \end{CD}.
 $$
 
