@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Probabilistic notation is the worst II (Even worser)
+disqus:
+    shortname: hoj201-github-io
 comments: true
 ---
 
