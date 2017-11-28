@@ -7,7 +7,7 @@ comments: true
 ---
 
 # Probabilistic notation is the worst (Part II)
-![coin flip](https://media.giphy.com/media/5EQC8eAnEAAZG/giphy.gif)
+![coin flip](https://media.giphy.com/media/5EQC8eAnEAAZG/giphy.gif){:width="300em"}
 
 
 I ended an [earlier post]({{ site.baseurl }}{% post_url 2017-06-23-probability %})
@@ -21,7 +21,10 @@ space of measures.
 
 ##  Ray?
 A *ray* is a semi-infinite line segment through the origin of a vector space.
-![a ray in $$\mathbb{R}^2$$](image address)
+The reason they are called "rays" is self-evident.
+
+![a ray]({{"assets/prob_notation_is_worst_p2/ray.jpeg" | absolute_url }}){:width="400em"}
+
 We can also think of rays in terms of symmetry by considering the group
 of positive real-numbers with group product given by multiplication,
  $$(\mathbb{R}^+,\cdot)$$.
@@ -75,7 +78,6 @@ Sorry to name drop like that, but since this idea may seem a tad screwy I felt c
 note that other people besides me drawn to this line of thought.
 
 ![there are dozens of us](https://media.giphy.com/media/WzDBaDZIXFZ1C/giphy.gif)
-
 
 
 ## Conditional probability using the classical definition
@@ -182,7 +184,7 @@ if $$\rho = \pi(\mu)$$ for some rank-one $$\mu \in {\rm rank}_1[\mathcal{M}(\Ome
 There is a parallel branch of [quantum probability theory](https://en.wikipedia.org/wiki/Quantum_probability) where probabilities are replaced by operators with unit trace.  If the observables are given by Hermetian operators, then it seems unfortunate to restrict ourselves to using the pre-dual of the bounded operators (i.e. the trace class operators).  Wouldn't we like to use the actual dual?  This would mean considering operators of infinite trace, and we run into the same normalization issue, perhaps also solvable via ray-spaces.
 I don't know how important this is, but since it's the foundation of quantum computing, it might be a hot-topic for some professional mathematician to look into.
 
-![the end](https://media.giphy.com/media/APHFMUIaTnLIA/giphy.gif)
+![image]({{ "assets/prob_notation_is_worst_p2/end.png" | absolute_url }}){:width="400em"}
 
 # Footnotes:
 [^0]:Technically, the domain of $$\pi$$ is not all of $$\mathcal{M}(\Omega)$$ since there is no ray associated to the zero-measure.  Perhaps that's an indication we are on the right track (there is no probability distribution associated with the zero-measure).
