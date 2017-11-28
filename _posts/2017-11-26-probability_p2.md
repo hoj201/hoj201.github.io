@@ -117,14 +117,14 @@ First, a non-exhaustive list of major branches of mathematics where the central 
  - Category theory (categories via natural transformations)
  - Measure theory (measure spaces via measurable maps)
 
-Here is an exhaustive list of major mathematical sub-disciplines which lack a coherent transformation theory:
+Here is an exhaustive list of major mathematical sub-disciplines which lack a notion of "morphism":
 
 - applied mathematics[^2]
 - [my 3-year olds counting book](https://www.goodreads.com/book/show/17938496-my-bus)
--  whatever this guy does[^crazy]
+- whatever this guy does[^crazy]
 - Kabbalah
 - probability theory (probability spaces)
-- Oh, and of course, [time cube](http://timecube.2enp.com/)
+- and of course, [time cube](http://timecube.2enp.com/)
 
 Probability theory deserves a better home.
 
