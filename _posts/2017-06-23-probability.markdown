@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Probabilistic notation is the worst (and how to fix it)
-mathjax: true
+comments: true
 ---
 
 
@@ -41,7 +41,7 @@ the opposite of where it should be.  If anything, the prose should be conveying
 high level description, and the math should be the hyper-precise component which
 fills in the details.
 
-![keanu](http://cdn.empireonline.com/jpg/80/0/0/1000/563/0/north/0/0/0/0/0/t/films/1813/images/uprkH1mXqPZQXyl19VShgw9YMTf.jpg)
+![keanu](http://cdn.empireonline.com/jpg/80/0/0/1000/563/0/north/0/0/0/0/0/t/films/1813/images/uprkH1mXqPZQXyl19VShgw9YMTf.jpg){:width="300em"}
 
 **Devil's advocate**: *If we understand the second box, then what's the problem?
 The point of words and notation is to convey syntax, by hook or crook.*

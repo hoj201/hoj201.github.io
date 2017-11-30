@@ -10,4 +10,4 @@ theme: minima
 # Build settings
 markdown: kramdown
 disqus:
-    shortname: hoj201-github-io
+  shortname: hoj201-github-io

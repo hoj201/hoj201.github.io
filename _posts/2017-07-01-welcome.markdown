@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: First post
-comments: true
+comments: false
 ---
 
 Welcome to my new blog.
