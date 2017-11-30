@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Probabilistic notation is the worst II (Even worser)
-disqus:
-    shortname: hoj201-github-io
+title: Probabilistic notation is the worst (Part II)
 comments: true
 ---
 
-# Probabilistic notation is the worst (Part II)
 ![coin flip](https://media.giphy.com/media/5EQC8eAnEAAZG/giphy.gif){:width="300em"}
 
 
@@ -94,16 +91,18 @@ Therefore,
 **the classical definition of a probability distribution does not transform properly
 under restrictions.**
 
-## Transformation is important
-I know this does not mean much to statisticians and probabilists, but when a theory
-does not transform properly, it is a significant defect for mathematicians in
-virtually any other discipline of mathematics.
+## Transforming properly is important
+An entity transforms properly if there is a set of morphisms which allow one
+to form a category.
+Apparently, unit-mass measures do not allow us to form a category if we wish to do things like restriction to a subset.  That's fuddup.
+
+I know this does not mean much to statisticians and probabilists. but virtually every other sub-discipline of mathematics studies an entity which is contained in a category.
 
 ![serial]({{"assets/prob_notation_is_worst_p2/super_serial.jpg" | absolute_url }}){:width="400em"}
 
 I can't describe why this is important very quickly, and I will probably need
 to do another post to do the point justice.
-As a cheap dirty substitute, here are two lists:
+In the meantime, here are two lists.
 First, a non-exhaustive list of major branches of mathematics where the central entity transforms properly:
 
  - Topology (topological spaces via continuous maps)
@@ -129,16 +128,21 @@ Here is an exhaustive list of major mathematical sub-disciplines which lack a no
 Probability theory deserves a better home.
 
 ## Conditional probability with rays
-As mentioned, measure theory has a coherent transformation theory.
-We can (quite literally) project that coherent transformation theory onto the ray-space
-of measure spaces.
+As mentioned, measures spaces form a category.
+Specifically, we can consider the category whose objects $$sigma$$-algebras and whose morphisms are measureable maps.
+The mapping $$\Omega \mapsto \mathcal{M}(\Omega)$$, which sends a $$\sigma$$-algebra
+to the cone of measures over that algebra yields a natural transformation to a new category
+where the objects are spaces of measures.
+We can (quite literally) project that later category onto the relevant ray-space.
+This is because the map $$\pi: \mathcal{M}(\Omega) \to \mathcal{R}(\Omega)$$ yields a natural transformation as well.
 
-For example, we can restrict any measure, $$\mu \in \mathcal{M}(X)$$, to $$A \cap \Omega$$
+How is this related to conditional probability?
+Well, we can restrict any measure, $$\mu \in \mathcal{M}(X)$$, to $$A \cap \Omega$$
 by pull-back to get a measure $$i_A^* \mu \in \mathcal{M}(A)$$.
 This is just fancy notation, $$i_A^* \mu( B \cap A) = \mu(B \cap A)$$ for
 arbitrary $$B \in \Omega$$.
 Additionally, we can project each of the measures $$\mu$$ and $$i_A^* \mu $$
-To there respective ray spaces.  So now we can draw a commutative diagram:
+To there respective ray spaces.  So now we can draw a commutative diagram (because $$\pi$$ yields a functor):
 
 ![Diagram]({{ "/assets/prob_notation_is_worst_p2/conditional.svg" | absolute_url }}){:width="200em"}
 
@@ -147,8 +151,10 @@ If $$\mu$$ is finite, we can identify the ray $$\pi(\mu)$$ with the (classical) 
 Similarly, if $$\mu(A)$$ is finite, then the ray of $$i_A^* \mu$$ would be identified with
 $$ \mu(B \cap A) / \mu(A)$$... That last expression is nothing but the conditional probability $$\Pr(B \mid A)$$... So that's telling.
 
-However, this means of thinking about Bayesianism is much more robust.
-If $$\mu(X)$$ is not finite, then the classical theory explodes while the ray-based theory just chugs along.
+However, this way thinking about Bayesianism is robust.
+If $$\mu(X)$$ is not finite, the classical theory explodes while the ray-based theory is like a honey-badger.
+
+![honey badger](http://i0.kym-cdn.com/entries/icons/facebook/000/005/637/Honey-Badger-Dont-Care.jpg){:width="300em"}
 
 ## Random variables (push-forwards)
 

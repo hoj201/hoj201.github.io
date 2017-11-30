@@ -4,8 +4,6 @@ title: Probabilistic notation is the worst (and how to fix it)
 comments: true
 ---
 
-
-# Probabilistic notation is the worst (and how to fix it)
 ![dice](http://learnersdictionary.com/media/ld/images/legacy_print_images/dice.gif)
 
 Does this sentence make sense?
