@@ -5,16 +5,16 @@ subtitle: Book Review for "Kids these days"
 comments: true
 ---
 
-Teens seem to get all the fun when it comes to new books about a dystopian future society which mirrors our own.  The most notable example is "The hunger games", about a society where children compete against their peers to the death for the entertainment and benefit of a small elite of old white people.  This is clearly a reference to student testing... or something.  It's hard to put you're finger on why these books were so successful, but I think it's because kids intuitively know that the world is strange and getting stranger.  The hunger games series gives children some acknowledgement: yeah, our system is cruel and probably amoral.
+Teens seem to get all the fun when it comes to new books about a dystopian future society which mirrors our own.  The most notable example is "The Hunger Games", about a society where children compete against their peers to the death for the entertainment and benefit of a small elite of old white people.  This is clearly a reference to student testing... or something.  It's hard to put your finger on why these books were so successful, but I think it's because kids intuitively know that the world is strange and getting stranger.  The hunger games series gives children some acknowledgement: yeah, our system is cruel and probably amoral.
 
-While kids can turn to the "Hunger games" to get there fix, there are few adult alternatives. Malcolm Harris provides at least one in "Kids These Days".
+While kids can turn to "The Hunger Games" to get their fix, there are few adult alternatives. Malcolm Harris provides at least one in "Kids These Days".
 Like "The Hunger Games", the book is about a society where children compete against their peers to the death for the benefit of a small elite of old while people.
 However, this book is in the non-fiction section.
 
 ## Random facts
-The baby-boomers started having kids in the 80s during the end-game of the cold war.
+The baby-boomers started having kids in the '80s during the end-game of the cold war.
 They raised them during the age of irrational exuberance on a diet of gold-star stickers and fruit snacks.
-During this time we saw a rise in helicopter parenting, detentions, suspensions, market-based solutions to government services, college tuition, mass incarceration, youth poverty, etc.
+During this time we saw a rise in helicopter parenting, detentions, suspensions, market-based solutions to government services, college tuition, mass incarceration, and youth poverty.
 
 ## Harris's take
 Harris interprets these trends through the lens of commodification of children.
@@ -25,25 +25,25 @@ He paints a very coherent picture, and his writing is unapologetic when depictin
 
 
 With the exception of economists, most people do not view children as financial certificates.
-However, after competing for a place at NYU, then Caltech, then the academic job market, then finally "selling out" and becoming a data-scientist: I certainly view myself as a commodity.
+However, after competing for a place at NYU, then Caltech, then the academic job market, then finally "selling out" and becoming a data scientist, I certainly view myself as a commodity.
 Have I been brain-washed?
 I act like a commodity because I've been trained to do nothing but compete by offering a return on investment.
 While the book has a lot of flaws, the main point resonated with me.
-*Why did my wife and I decide to move to park slope?*  So our kid could attend the schools, of course.
-*What about all the kids who can't go to those schools?*  To bad for them.
+*Why did my wife and I decide to move to Park Slope?*  So our kid could attend the schools, of course.
+*What about all the kids who can't go to those schools?*  Too bad for them.
 We're paying high rents now so that our child bond can pay out dividends in the future.
 This is assuming we manage to secure those dividends.
 
 ## Appropriate pricing
 What is the appropriate price of a good?
-If you're able to run tests you can find it empirically.
-You just raise the price until people stop buying.
-There is a threshold somewhere, and this threshold is characterized by being the lowest price where people get no benefit from purchasing the good.
-It seems that college tuition has surpassed this threshold, at least in the view of Moodys.
-> In 2013, Moody's issued a negative outlook rating for the US higher education sector, suggesting that schools were , in aggregate, not a good investment. The first reason these analysts five is that schools have more or less hit the ceiling when it comes to charging families for higher education. *- Malcolm Harris, "Kid's These Days", p.54*
+If you're able to run tests, you can find it empirically:
+you simply raise the price until people stop buying.
+There is a threshold somewhere, and this threshold is characterized by being the lowest price where people get zero benefit from purchasing the good.
+College tuition has surpassed this threshold, at least in the view of Moody's.
+> In 2013, Moody's issued a negative outlook rating for the US higher education sector, suggesting that schools were , in aggregate, not a good investment. The first reason these analysts find is that schools have more or less hit the ceiling when it comes to charging families for higher education. *- Malcolm Harris, "Kid's These Days", p.54*
 
-So perhaps the tuition should be a tad lower, because the Moody's suggests it is just above the market equilibrium.
-Event still, it seems weird to price college such that it barely benefits the average student.
+So perhaps the tuition should be a tad lower, because Moody's suggests it is just above the market equilibrium.
+Even still, it seems weird to price college such that it barely benefits the average student.
 This is nothing like the picture on the box.
 
 
@@ -56,8 +56,8 @@ You need to cut your losses, and get them off your balance sheet.
 
 When junk bonds default, we seek to wipe them off the books.
 This means suspension for children and incarceration for adults.
-Harris suggests that the rise in mass incarceration, can be seen as a symptom of our commodification.
-What I find funny about this argument is that mass incarceration is very expensive (oh yeah... also immoral).
+Harris suggests that the rise in mass incarceration can be seen as a symptom of our commodification.
+What I find funny about this argument is that mass incarceration is actually very expensive (oh yeah... and also immoral).
 
 
 ## The end?
@@ -66,8 +66,8 @@ I'll try to avoid spoiling the book.  Let me just say, the last chapter is tough
 This book is clearly a manifesto which seeks to spark a movement, and one which I can get behind if we can only interpret the end paragraph.
 For a long time, I've had the sneaking feeling that human civilization is a massive pyramid scheme.
 Raising a child with such thoughts in my head is admittedly contradictory (irresponsible?).
-What can I way, I wanted a kid.
-Nonetheless the feeling has not left me, and raising a child in this chaos has made me anxious.
+What can I say, I wanted a kid.
+Nonetheless the feeling has not left me, and having a child in this chaos has made me anxious.
 In particular, the feeling of a pyramid scheme on the verge of collapse has only gotten stronger.
 The end paragraph vaguely points at a way to escape the cycle.
 However, I don't want to ruin the end for anybody, so let me end with a quote from the beginning
