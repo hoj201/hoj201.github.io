@@ -31,23 +31,10 @@ However, after competing for a place at NYU, then Caltech, then the academic job
 Have I been brain-washed?
 I act like a commodity because I've been trained to do nothing but compete by offering a return on investment.
 While the book has a lot of flaws, the main point resonated with me.
-Why did my wife and I move to park slope?  For the schools, of course.
-What about all the kids who can't go to those schools?  To bad for them.
-We're paying out hire rents not, so that our child bond can pay out dividends.
-This is assuming our kid manages to with-stand the barrage of labor coming this way.
-Otherwise those dividends are kaput.
-
-## Junk bonds
-What happens when some of the child-bonds default?
-By default, that means failing math class or going crazy.
-You need to cut your losses, and get them off your balance sheet.
-When those bonds are people, this means suspension for children and incarceration for adults.
-At least this is what Harris suggests.
-> the modern classroom aspires to total control, to be a space where education can progress according to policymakers' predictions and employers' needs.  To standardize all those students in peace, teachers and administrators have to excise the disruptive elements.  School officials have accomplished this by removing more and more kids from class. (p120)
-
-Harris suggests that schools are incentivized by numerous things, but singles out standardized testing as an obvious culprit.
-What I find funny about this argument is that mass incarceration is very expensive (oh yeah... also immoral).
-It almost appears that the issue is one of pricing.
+*Why did my wife and I decide to move to park slope?*  So our kid could attend the schools, of course.
+*What about all the kids who can't go to those schools?*  To bad for them.
+We're paying high rents now so that our child bond can pay out dividends in the future.
+This is assuming we manage to secure those dividends.
 
 ## Appropriate pricing
 What is the appropriate price of a good?
@@ -57,10 +44,23 @@ There is a threshold somewhere, and this threshold is characterized by being the
 It seems that college tuition has surpassed this threshold, at least in the view of Moodys.
 > In 2013, Moody's issued a negative outlook rating for the US higher education sector, suggesting that schools were , in aggregate, not a good investment. The first reason these analysts five is that schools have more or less hit the ceiling when it comes to charging families for higher education. *- Malcolm Harris, "Kid's These Days", p.54*
 
-
 So perhaps the tuition should be a tad lower, because the Moody's suggests it is just above the market equilibrium.
 Event still, it seems weird to price college such that it barely benefits the average student.
 This is nothing like the picture on the box.
+
+
+## Junk bonds
+What happens when some of the child-bonds default?
+By default, that means failing math class or going crazy.
+You need to cut your losses, and get them off your balance sheet.
+
+> the modern classroom aspires to total control, to be a space where education can progress according to policymakers' predictions and employers' needs.  To standardize all those students in peace, teachers and administrators have to excise the disruptive elements.  School officials have accomplished this by removing more and more kids from class. (p120)
+
+When junk bonds default, we seek to wipe them off the books.
+This means suspension for children and incarceration for adults.
+Harris suggests that the rise in mass incarceration, can be seen as a symptom of our commodification.
+What I find funny about this argument is that mass incarceration is very expensive (oh yeah... also immoral).
+
 
 ## The end?
 I'll try to avoid spoiling the book.  Let me just say, the last chapter is tough to swallow, and the last subsection is very ambiguous.  One of the reasons I wrote this post was to convince friends to read the book and possibly start a conversation regarding the last paragraph.  In particular: What does it mean?
