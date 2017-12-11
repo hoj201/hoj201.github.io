@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dreaming of a dystopian Christmas
+title: Why is there so much dystopian sci-fi these days?
 subtitle: Book Review for "Kids these days"
 comments: true
 ---
@@ -16,11 +16,11 @@ However, this book is in the non-fiction section.
 ## Random facts
 The baby-boomers started having kids in the 80s during the end-game of the cold war.
 They raised them during the age of irrational exuberance on a diet of gold-star stickers and fruit snacks.
-During this time we saw a rise in helicopter parenting, detention, suspensions, market-based solutions to government services, college tuition, etc.
+During this time we saw a rise in helicopter parenting, detentions, suspensions, market-based solutions to government services, college tuition, mass incarceration, youth poverty, etc.
 
 ## Harris's take
-All these trends can be seen through the lens of commodification of children.
-Malcolm Harris paints a very coherent pictures, and his writing is unapologetic when depicting the ruthlessness of modern education
+Harris interprets these trends through the lens of commodification of children.
+He paints a very coherent picture, and his writing is unapologetic when depicting the ruthlessness of modern education
 
 > The "capital" part of "human capital" means that, when we use this term, we're thinking of people as tools in a larger production process. We can track increased competition on the labor market with indicators like wages (stagnant) and participation (decreased)... The arms race results pits kids and their families against each other in an ever escalating battle for a competitive edge, in which adults try to stuff kids full of work now in the hope  that it might serve as a life jacket when they're older.
 - p.22
