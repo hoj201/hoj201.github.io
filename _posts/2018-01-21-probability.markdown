@@ -151,13 +151,16 @@ if $$\mu_1 = \lambda \cdot \mu_2$$ for some scalar $$\lambda > 0$$.
 In words, two measures are probabilistically equivalent if they are histograms of the same probability distribution.
 Noting that a single probability distribution has an entire equivalence class of measures associated with it, we can turn this thinking on it's head[^1] and **define a probability distribution as an equivalence class**.
 
-Recall, a ray of a vector-space is just a semi-infinite line-segment
+What exactly are these equivalent classes?
+They are simply rays contained within the space of measures.
+Recall, a ray of a vector-space (or a cone in this case) is just a semi-infinite line-segment
 ([wikipedia link](https://en.wikipedia.org/wiki/Line_(geometry)#Ray)).
 There is a natural map from any vector-space to the space of rays through the origin
-(for each vector, just take the ray through the origin which passes through it).
+(for each non-zero vector, just take the ray through the origin which passes through it).
 The reason this ray business is relevant is because of the way rays transform.
-Transforming one ray into another has no effect on its length (which is always infinite).
-They are purely directional entities, and there is never a need to normalize anything.
+Transforming one ray into another has no effect on its "size", an notion which is not defined.
+They are purely directional entities, and there is never a need to take a (possibly infinite)
+norm for the sake of normalization.
 So we arrive at the following re-definition of a probability measure.
 
 > **Definition:** Let $$(\Omega, \mathcal{F})$$ be a $$\sigma$$-algebra.
@@ -204,7 +207,7 @@ when we use this new definition!
  - Intersection of measureable sets, "$$\cap$$", is a $$\sigma$$-algebra morphism.
  - Posteriors are arrows of a category and Baye's theorem is nearly a tautalogy (this is part 3).
 
-okay, I can see you're face.  I'll stop.
+okay, I can see you're face.  I'll stop.  Hope you guys check out part II.
 
 ### Footnotes:
 [^1]: In my opinion, this is actually putting our feet on the ground.  However, I understand that it might not feel natural if you've spent your life walking on your hands.
