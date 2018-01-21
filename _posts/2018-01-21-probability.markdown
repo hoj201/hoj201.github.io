@@ -44,7 +44,7 @@ the opposite of where it should be.  If anything, the prose should be conveying
 high level description, and the math should be the hyper-precise component which
 fills in the details.
 
-![keanu](http://cdn.empireonline.com/jpg/80/0/0/1000/563/0/north/0/0/0/0/0/t/films/1813/images/uprkH1mXqPZQXyl19VShgw9YMTf.jpg){:width="300em"}
+![keanu](http://cdn.empireonline.com/jpg/80/0/0/1000/563/0/north/0/0/0/0/0/t/films/1813/images/uprkH1mXqPZQXyl19VShgw9YMTf.jpg){:width="400em"}
 
 **Devil's advocate**: *If we understand the second box, then what's the problem?
 The point of words and notation is to convey syntax, by hook or crook.*
@@ -116,8 +116,8 @@ In fact I'm going to dedicate a section to it.
 ![strangelove](http://i.onionstatic.com/avclub/5865/19/16x9/960.jpg)
 *"Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb" (1964)*
 
-I think it's worthwhile to reconsider the foundations.
-Let's recall, a [probability space](https://en.wikipedia.org/wiki/Probability_space)
+I think reconsidering the foundations is worthwhile.
+Recall, a [probability space](https://en.wikipedia.org/wiki/Probability_space)
 is a triple $$(\Omega, \mathcal{F}, \Pr)$$ where $$\Omega$$ is a set,
 $$\mathcal{F} \subset 2^\Omega$$, is a [$$\sigma$$-algebra](https://en.wikipedia.org/wiki/Sigma-algebra)
 and $$\Pr: \mathcal{F} \to [0,1]$$ is a probability measure.
@@ -145,6 +145,12 @@ So what to do...  what to do...
 
 Let's just redefine what a probability measure is, so that it automagically normalizes itself.
 To begin, let's formalize this normalization business.
+
+Given two measures, $$\mu_1, mu_2$$ we will say they are probabilistically equivalent
+if $$\mu_1 = \lambda \cdot \mu_2$$ for some scalar $$\lambda > 0$$.
+In words, two measures are probabilistically equivalent if they are histograms of the same probability distribution.
+Noting that a single probability distribution has an entire equivalence class of measures associated with it, we can turn this thinking on it's head[^1] and **define a probability distribution as an equivalence class**.
+
 Recall, a ray of a vector-space is just a semi-infinite line-segment
 ([wikipedia link](https://en.wikipedia.org/wiki/Line_(geometry)#Ray)).
 There is a natural map from any vector-space to the space of rays through the origin
@@ -196,7 +202,9 @@ when we use this new definition!
 ### Similar findings
  - Marginals are push-forwards on cartesian products.
  - Intersection of measureable sets, "$$\cap$$", is a $$\sigma$$-algebra morphism.
- - The commutativity of intersection is equivalent to Bayes theorem.
- - Independence arises as product.
+ - Posteriors are arrows of a category and Baye's theorem is nearly a tautalogy (this is part 3).
 
 okay, I can see you're face.  I'll stop.
+
+### Footnotes:
+[^1]: In my opinion, this is actually putting our feet on the ground.  However, I understand that it might not feel natural if you've spent your life walking on your hands.
