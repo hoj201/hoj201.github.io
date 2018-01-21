@@ -146,7 +146,7 @@ So what to do...  what to do...
 Let's just redefine what a probability measure is, so that it automagically normalizes itself.
 To begin, let's formalize this normalization business.
 
-Given two measures, $$\mu_1, mu_2$$ we will say they are probabilistically equivalent
+Given two measures, $$\mu_1, \mu_2$$ we will say they are probabilistically equivalent
 if $$\mu_1 = \lambda \cdot \mu_2$$ for some scalar $$\lambda > 0$$.
 In words, two measures are probabilistically equivalent if they are histograms of the same probability distribution.
 Noting that a single probability distribution has an entire equivalence class of measures associated with it, we can turn this thinking on it's head[^1] and **define a probability distribution as an equivalence class**.
