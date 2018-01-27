@@ -207,7 +207,7 @@ when we use this new definition!
  - Intersection of measureable sets, "$$\cap$$", is a $$\sigma$$-algebra morphism.
  - Posteriors are arrows of a category and Baye's theorem is nearly a tautalogy (this is part 3).
 
-okay, I can see your face.  I'll stop.  Hope you guys check out part II.
+okay, I can see your face.  I'll stop.  Hope you guys check out [part II]({{ site.baseurl }}{% post_url 2018-01-27-probability_p2 %}).
 
 ### Footnotes:
 [^1]: In my opinion, this is actually putting our feet on the ground.  However, I understand that it might not feel natural if you've spent your life walking on your hands.
