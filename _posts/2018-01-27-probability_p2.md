@@ -7,7 +7,7 @@ comments: true
 ![coin flip](https://media.giphy.com/media/5EQC8eAnEAAZG/giphy.gif){:width="300em"}
 
 
-I ended an [earlier post]({{ site.baseurl }}{% post_url 2017-06-23-probability %})
+I ended an [earlier post]({{ site.baseurl }}{% post_url 2018-01-21-probability %})
  by suggesting a new definition of a probability
 distribution.  I glossed over the bulk of the math in that post,
 so I'll attempt to remedy that now.
@@ -76,6 +76,8 @@ note that other people besides me drawn to this line of thought.
 
 ![there are dozens of us](https://media.giphy.com/media/WzDBaDZIXFZ1C/giphy.gif)
 
+I also asked a friend of mine for his thoughts, a professor of probability theory and statistics at Princeton, and he said that this redefinition did not feel so radical.
+In fact, he felt it was implicitly adapted in certain scenarios (which we will get to in this post).
 
 ## Conditional probability using the classical definition
 
@@ -129,12 +131,12 @@ Probability theory deserves a better home.
 
 ## Conditional probability with rays
 As mentioned, measures spaces form a category.
-Specifically, we can consider the category whose objects $$sigma$$-algebras and whose morphisms are measureable maps.
+Specifically, we can consider the category whose objects $$\sigma$$-algebras and whose morphisms are ... well, I'd like to save that for part III, but certainly measureable maps are among the morphisms.
 The mapping $$\Omega \mapsto \mathcal{M}(\Omega)$$, which sends a $$\sigma$$-algebra
 to the cone of measures over that algebra yields a natural transformation to a new category
 where the objects are spaces of measures.
 We can (quite literally) project that later category onto the relevant ray-space.
-This is because the map $$\pi: \mathcal{M}(\Omega) \to \mathcal{R}(\Omega)$$ yields a natural transformation as well.
+This is because the map $$\pi: \mathcal{M}(\Omega) \to \mathcal{R}(\Omega)$$ yields a [functor](https://en.wikipedia.org/wiki/Functor).
 
 How is this related to conditional probability?
 Well, we can restrict any measure, $$\mu \in \mathcal{M}(X)$$, to $$A \cap \Omega$$
@@ -152,12 +154,11 @@ Similarly, if $$\mu(A)$$ is finite, then the ray of $$i_A^* \mu$$ would be ident
 $$ \mu(B \cap A) / \mu(A)$$... That last expression is nothing but the conditional probability $$\Pr(B \mid A)$$... So that's telling.
 
 However, this way thinking about Bayesianism is robust.
-If $$\mu(X)$$ is not finite, the classical theory explodes while the ray-based theory is like a honey-badger.
+If $$\mu(X)$$ is not finite, the classical theory explodes while the ray-based theory is honey-badger.
 
 ![honey badger](http://i0.kym-cdn.com/entries/icons/facebook/000/005/637/Honey-Badger-Dont-Care.jpg){:width="300em"}
 
-## Random variables (push-forwards)
-
+<!-- ## Random variables (push-forwards)
 A real-valued random variable, $$Z$$ is nothing more than a sigma-algebra morphism from some sigma-algebra, $$(X,\Omega)$$ to the Borel sigma algebra on $$\mathbb{R}$$.
 Thus, for any measure $$\mu$$ over $$(X,\Omega)$$ we can consider the push-forward
 measure $$Z_*\mu$$ by making the diagram
@@ -172,7 +173,7 @@ We can project this mapping to ray space by making the diagram
 
 commute.
 
-## Independence
+ ## Independence
 In the typical presentation of independence, you have two random variables, $$X$$ and $$Y$$, and you say they are independent if $$\Pr(X,Y) = \Pr(X) \Pr(Y)$$. (This is using that lousy probability theory notation that I hate)
 To translate this notion to ray space we use the fact that measure theory plays nice with category theory, and project the results onto ray-space again.
 
@@ -184,14 +185,16 @@ In diagrams, they form the minimal set in the upper left corner which makes the 
 
 commute.
 We can they say that $$X$$ and $$Y$$ are independent with respect to a ray, $$\rho \in \mathcal{R}(\Omega_1 \times \Omega_2)$$
-if $$\rho = \pi(\mu)$$ for some rank-one $$\mu \in {\rm rank}_1[\mathcal{M}(\Omega_1 \times \Omega_2)]$$. I'm glossing over some pretty interesting details here, but this post is too long now so I'll just stop and hide some more things in footnotes[^independence].
+if $$\rho = \pi(\mu)$$ for some rank-one $$\mu \in {\rm rank}_1[\mathcal{M}(\Omega_1 \times \Omega_2)]$$. I'm glossing over some pretty interesting details here, but this post is too long now so I'll just stop and hide some more things in footnotes[^independence]. -->
 
 ## Final thoughts
-There is a parallel branch of [quantum probability theory](https://en.wikipedia.org/wiki/Quantum_probability) where probabilities are replaced by operators with unit trace.
-If the observables are given by (possibly unbounded) Hermetian operators, then it seems unfortunate to restrict ourselves to using the pre-dual of the bounded operators (i.e. the trace class operators).
-Wouldn't we like to use the actual dual, or at least something a bit larger?
-This would mean considering operators of infinite trace, and we run into the same normalization issue, perhaps also solvable via ray-spaces.
-I don't know how important this is, but since it's the foundation of quantum computing, it might be a hot-topic for some professional mathematician to look into.
+This has been a long post, just to derive the classical notion of conditional probability.
+Bad news though. I don't think this is the best way to think about conditional probability.
+Just like I want to do away with the classical definition of probability, I'd also like to do away with the
+classical definition of conditional probability.
+I don't want to think of it simply as a map from a sigma algebra to a probability measure.
+Instead I'd like to think of conditional probabilities as arrows within a category.
+But this post is too long, so I'll save that for part III.
 
 ![image]({{ "assets/prob_notation_is_worst_p2/end.jpg" | absolute_url }}){:width="400em"}
 

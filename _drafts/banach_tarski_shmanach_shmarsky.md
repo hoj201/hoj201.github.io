@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Probabilistic notation is the worst (Part II)
+title: The Banach-Tarski paradox is stupid
 comments: true
 ---
 
-I don't understand what the big deal is is.
+I don't understand what the big deal is.
 
 ## It's so crazy!  How do you fit 2 things into one?
 It's easy, cut a tennis ball in half.
@@ -23,4 +23,4 @@ I can embedd $\mathbb{R}$.  However, I can think of an injection from $\mathbb{R
  This transformation is of similar "craziness", and the result is crazier too.
  I mapped a set of infinite measure into a measure-0 subset of itself.
 
-So I ask again.  What's so interesting about the Banack-Tarski paradox. 
+So I ask again.  What's so interesting about the Banack-Tarski paradox.
