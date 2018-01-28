@@ -95,10 +95,10 @@ under restrictions.**
 
 ## Transforming properly is important
 An entity transforms properly if there is a set of morphisms which allow one
-to form a category.
-Apparently, unit-mass measures do not allow us to form a category if we wish to do things like restriction to a subset.  That's fuddup.
+to form a [category](https://en.wikipedia.org/wiki/Category_(mathematics)).
+Apparently, defining probability distributions as unit-mass measures prohibits us from forming a category if we wish to do things like restriction to a subset.  That's fuddup.
 
-I know this does not mean much to statisticians and probabilists. but virtually every other sub-discipline of mathematics studies an entity which is contained in a category.
+I know this might not mean much to many (most?) statisticians and probabilists. but virtually every other sub-discipline of mathematics studies an entity which is contained in a category.
 
 ![serial]({{"assets/prob_notation_is_worst_p2/super_serial.jpg" | absolute_url }}){:width="400em"}
 
@@ -111,8 +111,8 @@ First, a non-exhaustive list of major branches of mathematics where the central 
  - Differential Geometry (smooth manifolds via smooth maps)
  - Analysis (function spaces via continuous maps)
  - Logic and set theory (boolean algebras via maps between sets)
- - Algebraic geometry (varieties via functors)
- - Algebraic anything really
+ - Algebraic geometry (varieties via regular maps)
+ - Algebraic anything really (algebraic things via homomorphisms)
  - Group theory (groups via group homomorphisms)
  - Linear Algebra (vector spaces via linear maps)
  - Category theory (categories via natural transformations)
