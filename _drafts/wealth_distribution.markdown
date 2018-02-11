@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Difficulties with the wealth distribution
 ---
 

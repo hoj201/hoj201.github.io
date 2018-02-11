@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Viva boring mom and dad's
 subtitle: (f*** cool mom's and dad's)
 ---
