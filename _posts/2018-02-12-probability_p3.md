@@ -40,33 +40,38 @@ The assignment "$$(X,\Sigma) \mapsto \mathcal{M}(X,\Sigma)$$" is actually a func
 ## Arrows between measure cones
 Not that for each event $$E \in \Sigma$$, we can describe a new $$\sigma$$-algebra $$(E, E \cap \Sigma)$$
 where
-$$$$E \cap \Sigma := \{ E \cap \bar{E} \mid \bar{E} \in \Sigma \}$$$$.
+$$E \cap \Sigma := \{ E \cap \bar{E} \mid \bar{E} \in \Sigma \}$$.
 In fact this characterizes all the sub-algebras of $$\Sigma$$.
-So we see each $$\sigma$$-algebra is equipped with a set of map to it's sub-algebras.
+So we see each $$\sigma$$-algebra is equipped with a set of inclusion maps from it's sub-algebras.
 
-A posterior measure is a map, $$m: \mathcal{M}(\Sigma_1) \to \mathcal{M}(\Sigma_2)$$ such that for any $$E \in \Sigma_1$$
-there exists a unique map $$m_E : \mathcal{M}(E \cap \Sigma_1) \to \mathcal{M}(\Sigma_2)$$ such that the diagram
+The inclusion map $$\iota: E \cap \Sigma \hookrightarrow \Sigma$$ can be lifted to a map which embeds $$\mathcal{M}(E \cap \Sigma) \hookrightarrow \mathcal{M}(\Sigma)$$.
+It's a measureable map after all.
+A **posterior measure** is a map, $$m: \mathcal{M}(\Sigma_1) \to \mathcal{M}(\Sigma_2)$$ such that for any $$E \in \Sigma_1$$
+there exists a unique map $$m_E : \mathcal{M}(E \cap \Sigma_1) \to \mathcal{M}(\Sigma_2)$$ which makes the diagram
 
 ![cd]({{"assets/probability_p3/presheaf.svg" | absolute_url }}){:width="300em"}
 
-commutes. *Sidetrack: Something here is eerily reminiscent of a pre-sheaf.*
-
+commute. *Sidetrack: Something here is eerily reminiscent of a pre-sheaf.*
 
 The correspondence with the classical notion of a posterior measure might not be obvious.
-Given a classical posterior measure, $$m(B \mid A)$$ where $$A \in \Sigma_1$$ and $$B \in \Sigma_2$$
-we also have a map which sends a measure $$\mu_1 \in \mathcal{M}(X,\Sigma_1)$$ to a measures $$\mu_2 \in \mathcal{M}(Y,\Sigma_2)$$
+In the case where $$X$$ is a manifold, a classical posterior measure, $$m(B \mid A)$$ where $$A \subset X$$ and $$B \in \Sigma_2$$
+induces a map which sends a measure $$\mu_1 \in \mathcal{M}(X,\Sigma_1)$$ to a measures $$\mu_2 \in \mathcal{M}(Y,\Sigma_2)$$
 by
-$$\mu_2(B) := m(B \mid X) \mu_1(X) \forall B \in \Sigma_2$$.
+$$\mu_2(B) :=  \int m(B \mid x) \mu_1(x) dx, \forall B \in \Sigma_2$$.
+In the discrete case, the integral just becomes a sum.
+This mapping satisfies the commutative diagram,
+so we at least see the classical posteriors as special cases, and so have illustrated one direction of this equivalence.
+
+The other direction can be demonstrated as well.
 This mapping from $$\mathcal{M}(X,\Sigma_1)$$ to $$\mathcal{M}(Y,\Sigma_2)$$ completely characterizes the posterior $$\mu(B\mid A)$$.
 This is most easily illustrated in the case where $$\Sigma_1$$ is finite.
-Then you can take $$E$$ to be a singleton set, $$\{ x \}$$ for some $$x \in X$$, in which case $$\mu$$ is just a scalar which we'll call $$\mu_x \in \mathbb{R}^+$$.
-The measure $$\iota_*(\mu)$$ has support on a single point, namely $$x$$, and the comutativity of the diagram implies that for any $$E_2 \in \Sigma_2$$ that $$m[i_*\mu] (E_2) = \lambda_x(E_2) \mu_x$$ for some measure $$\lambda_x \in \mathcal{M}(\Sigma_2)$$.
+Then you can take $$A$$ to be a singleton set, $$\{ x \}$$ for some $$x \in X$$, in which case $$\mu$$ is just a scalar which we'll call $$\mu_x \in \mathbb{R}^+$$.
+The measure $$\iota_*(\mu)$$ has support on a single point, namely $$x$$, and the comutativity of the diagram implies that for any $$B \in \Sigma_2$$ that $$m[i_*\mu] (B) = \lambda_x(B) \mu_x$$ for some measure $$\lambda_x \in \mathcal{M}(\Sigma_2)$$.
 However, all measures in $$\mathcal{M}(\Sigma_1)$$ are direct sums of measures of the form $$\iota_* \mu$$ where $$\iota$$ is the immersion of a singleton set.  Therefore, for a generic $$\mu \in \mathcal{M}(\Sigma_1)$$ we have
-$$m[\mu](E_2) = \sum_{x \in X} \lambda_x(E_2)  \mu(x)$$.
-The measure $$\lambda_x (E_2)$$ is just a manifestation of what is classically written as "$$\Pr(E_2 \mid x)$$".
+$$m[\mu](B) = \sum_{x \in X} \lambda_x(B)  \mu(x)$$.
+The measure $$\lambda_x (B)$$ is just a manifestation of what is classically written as "$$\Pr(B \mid x \in X)$$".
 In the case where $$\Sigma_1$$ is a continuous algebra, the summation just becomes integration.
-For generic $$\sigma$$-algebras, I'm not sure how to write things, but in that scenario the top-down categorical definition of a posterior serves us by allowing us to march along without writing down an explicit formula anyway.
-
+For generic $$\sigma$$-algebras, I'm not sure how to write things, but in that scenario the top-down categorical definition of a posterior might serve us better anyway, by foregoing the need to write down an explicit expression.
 
 Having defined posterior measures in this way, we see that the posterior measures are good candidates for the arrows of the category of measures. We need only define the composition operation.
 
