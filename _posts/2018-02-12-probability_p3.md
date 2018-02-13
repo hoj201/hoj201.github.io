@@ -9,7 +9,7 @@ comments: true
 
 This post is the third in a three part series
  - [click here for part I]({{ site.baseurl }}{% post_url 2018-01-21-probability %})
- - [click here for part II]({{ site.baseurl }}{% post_url 2018-01-21-probability %})
+ - [click here for part II]({{ site.baseurl }}{% post_url 2018-01-27-probability_p2 %})
 
 In part II I discussed how probability theory deserves its own category, the same way that other sub fields of mathematics have their own category.  I showed how the standard definition does not transform properly under restriction, and prohibits the the formation of a category.  This motivated us to consider an alternative definition. However, I never illustrated the category which results. The present post accomplishes one thing: we will make a category for probability theory and tie it to the classical foundations.
 
