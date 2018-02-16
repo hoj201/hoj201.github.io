@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probabilistic notation is the worst Part III
+title: Probabilistic notation is the worst (Part III)
 subtitle: Now with machine learning
 comments: true
 ---
@@ -81,7 +81,7 @@ Given posteriors $$m_1 :\mathcal{M}(X,\Sigma_1) \to \mathcal{M}(Y,\Sigma_2)$$,
 and a posterior $$m_2:\mathcal{M}(Y,\Sigma_2) \to \mathcal{M}(Z,\Sigma_3)$$, we can compose
 them to get the posterior $$m_3 = m_2 \circ m_1:\mathcal{M}(X,\Sigma_1) \to \mathcal{M}(Z,\Sigma_3)$$.
 If we write this composition down using classical notation we find
-$$m_3(C \mid A) =  m_2(C \mid Y) m_1(Y \mid A)$$.
+$$m_3(C \mid A) =  \int_Y m_2(C \mid y) m_1(y \mid A) dy$$.
 
 Having defined a collection of objects, the measure cones $$\mathcal{M}(\Sigma)$$, and arrows, represented by posteriors, we see that we have a category, which I'll dub $${\rm Meas}$$.
 
@@ -93,7 +93,7 @@ Having defined a collection of objects, the measure cones $$\mathcal{M}(\Sigma)$
   This notion of using posteriors as arrows is discussed at the [n-category cafe](https://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html) and at the [n-lab](https://ncatlab.org/nlab/show/probability+theory) where they talk about a theory of ["Probabilistic Relations"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4840), by Prakash Panangaden.
   Apparently this line of thought goes back all the way to the early days of category theory, to an unpublished manuscript Lawvere wrote in the 1962 called "The category of probabilistic mappings".
   This manuscript was later elaborated on by M. Giry in ["a categorical approach to probability theory"](https://www.chrisstucchio.com/blog_media/2016/probability_the_monad/categorical_probability_giry.pdf) where the functor $$(X,\Sigma) \mapsto \mathcal{M}(X,\Sigma)$$ serves as the key ingredient to Monad.
-  He then forms the Kleisli category of this monad, which apparently provides some insight into Chapman-Kolmogorov relations. This paper by Giry looks like a lot of fun, but to be honest, as a hobbyist mathematician with a fairly intense (less mathy) day job, I probably wont find the time to give Giry's work it's due attention any time soon.
+  He then forms the Kleisli category of this monad, which apparently provides some insight into Chapman-Kolmogorov relations. This paper by Giry looks like a lot of fun, but to be honest, as a hobbyist mathematician with a fairly intense (less mathy) day job, I probably wont find the time to give Giry's work the attention it deserves any time soon.
 
 ## Our first functor
 We are ready for our first functor, which sends the category of $$\sigma$$-algebras to $${\rm Meas}$$.
@@ -149,12 +149,12 @@ In contrast, in this category theoretic picture, the posteriors are entities whi
 Seems trivial.  We just note that we can swap the role of $$\Sigma_1$$ and $$\Sigma_2$$.
 
 ### Diffusion and Markov processes
-A Markov process, in this context, is nothing but an arrow, $$\rho$$ from $$\mathcal{P}(\Sigma)$$ to itself.
-A hidden markov model is nothing but a tuple $$(\rho, \gamma)$$, where $$\rho:\mathcal{P}(\Sigma) \to \mathcal{P}(\Sigma)$$ and $$\gamma : \Sigma \to \Sigma_\mathcal{O}$$, is a measuraeable map to a space of observables.
+A Markov process, in this context, is nothing but an arrow, $$\rho$$ from $$\mathcal{P}(X,\Sigma)$$ to itself.
+A hidden markov model is nothing but a tuple $$(\rho, \gamma)$$, where $$\rho:\mathcal{P}(X,\Sigma) \to \mathcal{P}(X,\Sigma)$$ and $$\gamma : X \to Y$$, is a measuraeable map to a space of observables.
 Diffusion results from the observation that $$\rho$$ is generically not invertible.
 My guess is that ,$$\rho$$ is invertible if and only if
 $$ \rho(\mu)(E) = \mu( \phi^{-1}(E))$$
-for some measurable isomorphism $$\phi$$.
+for some measurable automorphism $$\phi:X \to X$$.
 
 ## Bayesian nets
 With all these diagrams and arrows being drawn, it's tempting to wonder "What does this have to do with probabilistic graphical models and Bayesian networks". Perhaps there is a relation, but it might not resemble what you (or at least I) would have imagined.
