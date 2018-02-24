@@ -2,6 +2,7 @@
 layout: post
 title: Probabilistic notation is the worst (Part II)
 comments: true
+tags: math
 ---
 
 ![coin flip](https://media.giphy.com/media/5EQC8eAnEAAZG/giphy.gif){:width="300em"}
@@ -115,7 +116,7 @@ First, a non-exhaustive list of major branches of mathematics where the central 
  - Algebraic anything really (algebraic things via homomorphisms)
  - Group theory (groups via group homomorphisms)
  - Linear Algebra (vector spaces via linear maps)
- - Category theory (categories via natural transformations)
+ - Category theory (tags via natural transformations)
  - Measure theory (measure spaces via measurable maps)
 
 Here is an exhaustive list of major mathematical sub-disciplines which lack a notion of "morphism":

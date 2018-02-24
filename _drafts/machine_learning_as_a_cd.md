@@ -20,7 +20,7 @@ example
 
 
 ## Learning theory
-Posteriors are arrows of categories
+Posteriors are arrows of tags
 
 ## Metrics
 

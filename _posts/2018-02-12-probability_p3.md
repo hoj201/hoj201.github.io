@@ -3,6 +3,7 @@ layout: post
 title: Probabilistic notation is the worst (Part III)
 subtitle: Now with machine learning
 comments: true
+tags: math
 ---
 >“We were somewhere around Barstow, on the edge of the desert, when the drugs began to take hold.”
 *― Hunter S. Thompson, Fear and Loathing in Las Vegas*

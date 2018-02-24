@@ -3,6 +3,7 @@ layout: post
 title: Why is there so much dystopian sci-fi these days?
 subtitle: Book Review for "Kids these days"
 comments: true
+tags: society
 ---
 
 Teens seem to get all the fun when it comes to new books about a dystopian future society which mirrors our own.  The most notable example is "The Hunger Games", about a society where children compete against their peers to the death for the entertainment and benefit of a small elite of old white people.  This is clearly a reference to student testing... or something.  It's hard to put your finger on why these books were so successful, but I think it's because kids intuitively know that the world is strange and getting stranger.  The hunger games series gives children some acknowledgement: yeah, our system is cruel and probably amoral.

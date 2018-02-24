@@ -2,6 +2,7 @@
 layout: post
 title: Probabilistic notation is the worst (and how to fix it)
 comments: true
+tags: math
 ---
 
 ![dice](http://learnersdictionary.com/media/ld/images/legacy_print_images/dice.gif)
