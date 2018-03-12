@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A geometers take on Artificial Neural Networks
-tags: math ML
+tags: [math,AI]
 ---
 
 ## Summary
