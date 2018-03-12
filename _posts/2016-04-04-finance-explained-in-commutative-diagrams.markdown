@@ -7,7 +7,7 @@ link: https://hoj201.wordpress.com/2016/04/03/finance-explained-in-commutative-d
 slug: finance-explained-in-commutative-diagrams
 title: Finance explained in commutative diagrams
 wordpress_id: 924
-categories: math, society
+categories: math society
 ---
 
 The intended audience for this post is people who want to see finance and diagram chasing in the same location (i.e. nobody?). [My last entry](https://hoj201.wordpress.com/2016/01/17/a-mathematical-model-of-stuff-i-read-in-the-new-jim-crow/) infused the hot topic of racial injustice in America with the excitement of a multiplication table. Well, I am back again, and determined to lose the rest of my readership.
