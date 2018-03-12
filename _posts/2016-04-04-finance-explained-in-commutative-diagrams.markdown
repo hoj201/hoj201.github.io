@@ -84,11 +84,11 @@ We have all heard some variant of *"China's devaluation of the Yuan makes it dif
 
 ![pbc](https://hoj201.files.wordpress.com/2016/03/pbc.jpg)
 
-There's a good chance you know why. Sorry if this seems patronizing. Just humor me. Lets draw the diagram of contracts. Lets say the price of an apple in china is $$ p_\yen$ in Yuan.
-The exchange rate from US Dollars to RMB Yuans is $$ q_{\rm money}$. Implicitly, there exists a contract which exchanges a US apple for a Chinese apple. Let us say this exchange rate is $$ q_{\rm apple}$.
+There's a good chance you know why. Sorry if this seems patronizing. Just humor me. Lets draw the diagram of contracts. Lets say the price of an apple in china is $$p_\yen$$ in Yuan.
+The exchange rate from US Dollars to RMB Yuans is $$q_{\rm money}$$. Implicitly, there exists a contract which exchanges a US apple for a Chinese apple. Let us say this exchange rate is $$ q_{\rm apple}$$.
 
 ![currency_manipulation](https://hoj201.files.wordpress.com/2016/03/currency_manipulation.png)
-If this diagram commutes then $$ q_{\rm apple} = p_\yen \circ q_{\rm money} \circ p_\$^{-1}$$. This means $$ q_{\rm apple}$$ rises when $$ q_{\rm money}$$ rises.
+If this diagram commutes then $$q_{\rm apple} = p_\yen \circ q_{\rm money} \circ p_\$^{-1}$$. This means $$q_{\rm apple}$$ rises when $$q_{\rm money}$$ rises.
 Which is to say that Chinese apples will be cheaper.
 
 Can the US do anything in response. Ideally, without manipulating the value of the dollar, because that would be hypocritical. Well, we can re-arrange this commutative diagram by reversing a few of these arrows to get an equivalent diagram:
