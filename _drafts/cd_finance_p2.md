@@ -5,6 +5,10 @@ tags: math, economics
 ---
 
 This post is something of a sequel to [a post from two years ago]({{ site.baseurl }}{% post_url 2016-04-04-finance-explained-in-commutative-diagrams %}) where I used commutative diagrams to understand finance.
+A few people wanted me to write a follow-up and I dragged my feet for a long time.
+Then it randomly appeared on Reddit, and then my ego kicked in, and I always listen to my ego now days because I'm tired of being controlled by the Buddha!
+
+No commutative diagrams in this one, but the level is a bit elevated mathematically.
 This time I'll use discrete exterior calculus.  A pre-requisite to understanding this post is knowledge of [differential forms](https://en.wikipedia.org/wiki/Differential_form).
 
 ## backstory
@@ -73,7 +77,9 @@ Recall, given any differential form $$\omega$$, the integral of $$\omega$$ over 
 In fact this theorem can be used as an alternative definition of the exterior derivative.
 That is, we can define $$d \omega$$ as the unique $${k+1}$$-form, such that Stokes theorem hold for arbitrary $$k$$-submanifolds with boundary.  Such a definition would be consistent with defining $$k$$-forms as
 
-> **Alternative Definition of $$k$$-form:** A $$k$$-form, $$\alpha$$, is a map from $$k$$-submanifolds of $$M$$ to the reals, such that $$\alpha(N_1 \uplus N_2) = \alpha(N_1) + \alpha(N_2)$$, where $$\uplus$$ denotes disjoint union. The vector space of $$k$$-forms on $$M$$ is denoted by $$\Omega^k(M)$$.[^analysis]
+> **Alternative Definition of $$k$$-form:** A $$k$$-form, $$\alpha$$, is a map from oriented[^oriented] $$k$$-submanifolds of $$M$$ to the reals, such that $$\alpha(N_1 \uplus N_2) = \alpha(N_1) + \alpha(N_2)$$, where $$\uplus$$ denotes disjoint union. The vector space of $$k$$-forms on $$M$$ is denoted by $$\Omega^k(M)$$.[^analysis]
+
+[^oriented]: Sometimes, one learns that a manifold is oriented if there exists a non-vanishing volume form on it (this is how I learned of it).  However, you can define orientation prior to defining differential forms.  A manifold is oriented if there exists an atlas where the transition maps are all orientation preserving (i.e the determinant of the Jacobian is positive).
 
 [^analysis]: What's missing in this definition is analysis. I'm not exactly sure how best to address this. My gut tells me that Peter Michor and his students know best.  It's somewhere in [this book](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf), either explicitly or implicitly.  Perhaps it's as simple as looking at the space of smooth embeddings, $$\operatorname{Emb}(S,M)$$ as an infinite.  We'd say $$\alpha \in \Omega^k(M)$$ is $$C^s$$ if $$\alpha \circ f$$ is a $$C^s$$ endomorphism on $$\mathbb{R}$$ for any $$f: \mathbb{R} \to \operatorname{Emb}(S,M)$$ of class $$C^s$$ and any $$k$$-manifold $$S$$.
 
@@ -116,10 +122,9 @@ Then discretized functions are maps from the vertices to the reals.  The discret
 
 ![subcomplex]({{"assets/finance/subcomplex.png" | absolute_url}})
 
-The definition of a *discrete* $$k$$-form (and a perhaps all of discrete exterior calculus) can be a obtained by using your favorite text editor (mine is VIM) and doing a find/replace to substitute the word "manifold" with "simplicial complex" and the word "sub manifold" with "sub complex".  We obtain
+The definition of a *discrete* $$k$$-form (and a perhaps all of discrete exterior calculus) can be a obtained by using your favorite text editor (mine is VIM) and doing a find/replace to substitute the word "manifold" with "simplicial complex" and the word "sub manifold" with "sub complex".  By drawing arrows on edges we get oriented simplicies, and thus oriented simplicial complexes.  We then obtain
 
-
-> **Definition of discrete differential forms:** A discrete $$k$$-form, $$\alpha$$, is a map from $$k$$-subcomplexes of $$K$$ to the reals, such that $$\alpha(N_1 \uplus N_2) = \alpha(N_1) + \alpha(N_2)$$, where $$\uplus$$ denotes disjoint union.
+> **Definition of discrete differential forms:** A discrete $$k$$-form, $$\alpha$$, over $$K$$ is a map from oriented $$k$$-subcomplexes of $$K$$ to the reals, such that $$\alpha(N_1 \uplus N_2) = \alpha(N_1) + \alpha(N_2)$$, where $$\uplus$$ denotes disjoint union.
 
 Again, we will use the notation $$\int_N \alpha$$ to denote $$\alpha(N)$$. We denote the set of discrete $$k$$-forms on $$K$$ by $$\Omega_d^k(K)$$
 
