@@ -8,8 +8,8 @@ This post is something of a sequel to [a post from two years ago]({{ site.baseur
 A few people wanted me to write a follow-up and I dragged my feet for a long time.
 Then it randomly appeared on Reddit, and then my ego kicked in, and I always listen to my ego now days because I'm tired of being controlled by the Buddha!
 
-No commutative diagrams in this one, but the level is a bit elevated mathematically.
-This time I'll use discrete exterior calculus.  A pre-requisite to understanding this post is knowledge of [differential forms](https://en.wikipedia.org/wiki/Differential_form).
+No commutative diagrams in this one, but still plenty of math.
+This post might be generally readable, but I suspect it's more fun if you know what [differential forms](https://en.wikipedia.org/wiki/Differential_form) are.
 
 ## backstory
 
@@ -61,7 +61,7 @@ Diagramatically, capturing arbitrage involves traversing this triangle
 
  ![arbitrage triangle]({{"assets/finance/arbitrage.png" | absolute_url }})
 
- The ubiquity of this phenomena is eerie until you go down the rabbit hole and find the common culprit.
+If you take the dual diagram, and find/replace `dollars`/`present shares of stock`/`future shares` with `slaves`/`sugar`/`rum` you get [the original triangle trade](https://en.wikipedia.org/wiki/Triangular_trade). The ubiquity of this phenomena is eerie until you go down the rabbit hole and find the common culprit.
 
 ## The puppet master
 ![Elie Cartan picture](https://upload.wikimedia.org/wikipedia/en/e/e8/Elie_Cartan.jpg)
@@ -174,18 +174,36 @@ We'll firstly, if $$d \alpha \neq 0$$, then there is no $$f$$ such that $$df = \
 In other words,
 *there is no collectively agreed upon value for the commodities in an economy that has arbitrage opportunities.*
 
-That's not quite the end.  We know that $$d(d\alpha) = 0$$, does this translate to anything familiar?
-Well if you draw the picture, it's not so crazy.  $$\omega := d\alpha$$ is a two-form an is cartooned using oriented triangles.
-That $$d\omega = 0$$ means that whenever you fit these triangles into a simplex, they will sum to zero.
-Imagine a world of four currencies: the US dollars, the Euro, and the Yuan, and bit coin.
-Also imagine three currency traders: this guy (Pollock), this guy (Dali), this guy (Ai Wei Wei), and this guy (douchy kid).
-Each person might consider traversing a loop in this diagram so as to return to their home currency.
+That's not quite the end.  While we can't find a price, there is something positive I can still say.
+We know that $$d(d\alpha) = 0$$, does this translate to anything familiar?
 
-[picture of tetra hedron with oriented sides, put an eye on one of them]
+### Flux in in the economy
+To make things familiar, let's make things more elementary. In fact, I think we should literally be playing with my baby toys to understand this. The minimal manifestation of an arbitrage opportunity requires three entities, let's say they are currencies: Bitcoin, the Euro, and the Yuan.  An arbitrage opportunity means executing a cycling sequence of trades as depicted below
+![triangle]({{"assets/finance/triangle_marked.jpeg" | absolute_url}})
 
-If the douchy kid issues the contracts on the edge of the blue face, then somebody else had to agree to the other side of each of those contracts. In this case, three people did, and in aggregate those three people have lost money to the douchy kid, and  traditional currency has transferred value to bitcoin.
-Therefore, the statement $$d \omega = 0$$ here is just the manifestation of investment as a zero-sum game.
-The conspiracy deepens.
+will result in a profit going clock-wise, and a loss if you execute the trades counter-clockwise.
+Don't forget, that in any trade it takes two to tango. Each edge of the triangle is a trade with two sides, and thus another triangle.  In particular, there are most likely three other individuals out there, executing there own trade cycles.
+
+![triangle2]({{"assets/finance/triangle2_marked.jpeg" | absolute_url}})
+
+Perhaps these individuals reside in the US, and so all the trades are cycles that start and end in US dollars.
+
+Let's say $$\alpha$$ is the one-form which represents the trades along the edges.
+Then $$\omega := d \alpha$$ is a two-form, and it lives inside each of the triangles.
+In particular, $$\omega$$ represents the profit/loss from traversing the cycles depicted above.
+
+How do we think about $$d \omega$$?  Recall, the last time we applied the exterior derivative, $$d$$, we turned something that lived on edges (a discrete 1-form, $$\alpha$$) into something that lived on triangles (a discrete 2-form, $$\omega = d\alpha$$).  So it seems natural to suspect that $$d\omega$$ is something that lives on tetrahedron.
+
+Note that US dollars appears 3 times in the last image (they are the outermost vertices).  A graphical lie!  These points should be identified with one another!  That means we just fold those triangles so that the US-dollar vertices all meet, and the whole complex just becomes a tetrahedron (a.k.a. a 3-simplex).  
+![tetrahedron]({{"assets/finance/tetrahedron_marked.jpeg" | absolute_url}})
+
+The formula for $$d \omega = 0$$ boils down to summing the profit/loss for each face and storing it inside this tetrahedron.  That's our 3-form!  $$d \omega = 0$$ is just DEC speak for the fact that **trading is a zero sum game**.
+
+I'd like to show this tetrahedron from another perspective, just to make another point.
+![tetrahedron]({{"assets/finance/tetrahedron_conspiracy.jpeg" | absolute_url}})
+the conspiracy deepens! (Okay, toddler is crying, I should probably give him his creepy blocks back now.)
+
+
 
 ## Gripes and under-developed musings
 I'm like this formalism, but there are major issues
@@ -193,15 +211,17 @@ I'm like this formalism, but there are major issues
  - Typically there are multiple contracts floating around for some trades, and zero contracts floating around for others.
 
 ### Non-zero sum?
-By construction, $$d^2 \alpha = 0$$.  However, this would suggest a zero-growth economy.  However, the economy is always growing or shrinking. No idea how to fix this. If you've got an idea, I'd love to hear it.  Jot it in the comments section, please!
+By construction, $$d^2 \alpha = 0$$, and this equation jives with a zero-growth economy.  However, the economy is typically not zero-growth.  It's almost always growing or shrinking.  Moreover, the presence of two-forms for representing profits/loss tickles the physicist in me, and makes me think about fluxes and divergence.
+Perhaps the way to think about growing/shrinking economies is to think about breaking some no-divergence criterion.
+Not sure if this is the right track, and I'd rather just open the floor for discussion. If you've got an idea, I'd love to hear it.  Jot it in the comments section!
 
 ### Weighted networks and electronic trading
  I think the links in the network should not be one-forms, but more like a distribution of one-forms. Prices are not fixed, and many quantitative theories of finance view them as random variables.  I just complete a three part post where probability theory was given a category, and the morphisms were posteriors.  Can that machinery be imported here?... Sort of... I think.  I jotted some stuff down and found that Bayes theorem actually manifests as $$d\alpha = 0$$.  Thus, we end up in a no-arbitrage economy if we force our posteriors to follow Bayes theorem (which we should if we want to be self-consistent). Making money off this entails watching price fluctuations, and noting discrepancies between the contracts issued and the contracts you'd expect issued from your posteriors.  My guess is that this is roughly what electronic trading at medium length time-scales involves.
 
-### Monopoles, trade barriers, and the shape of the market
+### Conclusion: the quest for monopoles
 In this formalism I have been assuming the economy is fully connected.  Geometrically speaking, this means the economy is a an $$n$$-dimensional simplex for some large $$n$$.  This is the simplest possible shape we could expect.  However, trade barriers will remove some of the links in the network, and the resulting trade network might take on a more interesting shape, perhaps one with holes.  Once you have a hole, the poincare lemma is only local.  It is then possible to have an economy where $$d\alpha = 0$$, but where there exists a loop $$\gamma$$ that posses an arbitrage opportunity.  Getting rid of such an arbitrage might be impossible due to topological obstructions (the trade barriers).
 
-An analogous question arose in the physics community back in 1931, when Dirac wrote a quantum theory of magnetic charge.  There is a geometric way of writing down Maxwell's equations using (modest generalizations of) differential forms and one of the equations takes the form $$d\alpha = 0$$.  Dirac found that if there exists a magnetic monopole in the universe, then the charge of all particles would become quantized.  Such a magnetic monopole would correspond to a hole of sorts, and the charge would manifest by integration of a differential form around this hold.  To date, magnetic monopoles have eluded us, but the theory is consistent with reality (charge is quantized). To the best of our knowledge, they are out there.
+An analogous question arose in the physics community back in 1931, when Dirac wrote a quantum theory of magnetic charge.  There is a geometric way of writing down Maxwell's equations using (modest generalizations of) differential forms and one of the equations takes the form $$d\alpha = 0$$.  Dirac found that if there exists a magnetic monopole in the universe, then the charge of all particles would become quantized.  Such a magnetic monopole would correspond to a hole of sorts, and the charge would manifest by integration of a differential form around this hole.  To date, magnetic monopoles have eluded us, but the theory is consistent with reality (charge is quantized). To the best of our knowledge, magnetic monopoles are out there.
 
 Finding an arbitrage is analogous (and mathematically identical) to finding a magnetic monopole somewhere in the universe.
 Such a loop would make one person massively wealthy until the trade barriers are removed, and the market is able to clamp down on this exploit.  Nonetheless, I've never heard of such a tactic.
@@ -211,6 +231,9 @@ So perhaps there are holes in the network, fortunes just sitting under our noses
 
 ![dollar]({{"assets/finance/great_seal.jpg" | absolute_url }})
 
+
+## Shoutouts
+I always found DEC beautiful, and I think it's a really under-appreciated topic.  If you're a grad student looking for a topic, I would suggest learning more about DEC (with the caveat that my own academic career was a wreck). I learned about DEC and its applications from a lot of people, starting with Mathieu Desbrun at Caltech.  I learned the more theoretical side by studying Anil Harani's and Melvin Leok's thesis. In terms of applications, Keenan Crane is a heavy user of DEC and he has always impressed me. He comes up with ideas that are ostensibly for computer graphics, but I think anybody with enough creativity can see that they are useful elsewhere.  On the more theoretical end, Ari Stern introduced me to idea of geometrically discretizing physics, and used DEC to discretize Maxwell's equations. There are a lot of other people in this community and I would encourage a young researcher to start traversing the network.  The people I mention here are merely the ones whom were in proximity to me at the time (2010-ish).
 
 
 # Footnotes
