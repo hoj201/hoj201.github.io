@@ -2,6 +2,7 @@
 layout: post
 title: Raising Arizona: How marriage = death of the self
 tags: movies, society
+comments: true
 ---
 
 
