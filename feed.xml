@@ -6,14 +6,13 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
     
      <title>{{ site.title }}</title>
-     <link href="{{ site.url }}/atom.xml" rel="self"/>
+     <link href="{{ site.url }}/feed.xml" rel="self"/>
      <id>{{ site.url }}</id>
      <updated>{{ site.time | date_to_xmlschema }}</updated>
      
      <author>
-       <name>{{ site.author.name }}</name>
-       <uri>{{ site.author.url }}</uri>
-       <email>{{ site.author.email }}</email>
+       <name>{{ site.me.name}}</name>
+       <email>{{ site.me.email }}</email>
      </author>
 
  {% for post in site.posts limit: 10 %}

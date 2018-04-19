@@ -1,11 +1,14 @@
 # Site settings
 title: Milk Bar
-email: hoj201@gmail.com
+email: "hoj201@gmail.com"
+me: 
+  name: Henry O. Jacobs
+  email: hoj201@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Crumbling subway lines, post-nuclear ravages, madman theory in the underground
   halls of the RAND corporation, Lie algebroids, and the old ultra-violence.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hoj201.github.io" # the base hostname & protocol for your site
+url: "http://hoj201.github.io/" # the base hostname & protocol for your site
 github_username: hoj201
 theme: minima
 # Build settings
