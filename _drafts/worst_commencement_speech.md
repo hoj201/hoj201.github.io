@@ -1,0 +1,29 @@
+---
+layout: post
+title: Unedited Commencement Speech
+tags: society
+comments: true
+---
+Congratulations class of 2018! The degrees which you have earned are merely sign posts on the journeys you've enabled through years of arduous study. When I graduated, I would never had guessed that I'd become who I am today. A thirty something dad in a middle class community of mostly white people. Just goes to show, you can never predict what life will throw at you.
+
+I must say, when I was first offered the honor of speaking at your graduation ceremony, I did not feel up to the task. Your generation is incredible. You make up the largest collection of interns in the history of mankind. New technologies allow you to stay constantly connected to what you do, making your by far the most accessible workforce in the history of mankind.  Lastly, you work hard despite great difficulty, with the largest student loan debt in the history of mankind. I would simply kill myself with a 12-gauge to the head If I were in your position. Despite this debt, your generation boasts largest population of individuals willing to work for free, since the days of indentured servitude. Unemployment is down, interest rates on the T-notes are finally above zero, and to boot we have a generation that is too modest to take the credit. If you wont take credit, then the best I can do is salute you, and sincerely thank you for your service. Your robustness in the face of adversity is striking. To me this is the primary benefit to a solid college education. Robustness. Now, more than ever, we need an robust populous. Which is to say, an educated populous. We need people who can turn screws, when all they have are hammers.  We need people who can keep trying, despite being surrounded by failure on all sides. For our society relies on your being bold, being fearless, and willing to fight to realize your ideas, whatever the cost. Do not be afraid of failure! Trust me, society will go on despite your failure. We only need a few of you to succeed. Each of you are darts in the proverbial dart game, where your fearlessness is measured by the sharpness of your needle. So be fearless! Go forth my mighty darts! The law of large numbers will allow the vast majority of you to be complete and utter failures while the economy grows.
+
+The challenges of the future are, as always, novel. Now that we don't have seasons anymore, we will need to replace our food supply.  Now that the job of judges has been semi-automated through mandatory minimum sentencing as well as through machine learning, we will need a new generation of hybrid statistician-lawyers to plead cases. Now that facebook, twitter, and the previous election has questioned the relevance of reality, we need philosophers to rewrite the ontological foundation of our society. In short, your generation has its work cut out. This is your test. Can your generation survive the stupidity of the previous?
+
+That said, every generation has faced its own series of challenges.  When I graduated from [SOME SCHOOL], it was in the middle of the second Iraq war and the beginning of the great recession. Day after day, hedge funds failed, houses were foreclosed, and the entire financial industry was on the ropes. After some bailouts, forced buy-outs, and massive foreclosures, we found ourselves in the depths of the great recession, with a new economical normal, of high underemployment which remains high to this day. Detroit declared bankruptcy. I don't know where I'm going with this, but I remember I had something inspirational here... Anyway, I'm not dead now, so I guess we overcame that challenge.  Good for us. Our generation did it, so can yours.
+
+Perhaps I ought to commence the meat of the speech, the anecdotes and stories that form the base of any commencement speech worth its salt.
+Four years ago I had a child, and he/she transformed my life. The sleep deprivation was difficult and the best thing I can say about it was that it ended. However, even during that first difficult year, there were moments of serenity. In particular, I remember lying on my back in the grassy fields of Turnham Green, next to my babbling son. I would look at him in the late afternoon glow, and realize that being happy was not so complicated. With this child all it took was a bit of string, or a funny face. When you look at your own child at the right hour, and in the right environment, you get a feeling that all is right with your life, and at some subconscious level you feel as if you are in a world at peace. Clearly this is biology commandeering your better judgment, because our world is *NOT* at peace. Some neurological circuitry must have been hard-wired at birth to prepare you for the moment of having a child, and trick you into have two, three, or ten.
+It was then that I realized that the whole thing is a massive massive pyramid scheme without a manual, and the creators died long ago. To maintain our way of life we must continuously feed young blood into the fuel nozzle, so that economic output maintains the levels projected by our current board members. As far as we can tell, there are no breaks or emergency exits. So god speed to you all.
+
+We'll my time here is almost up, so perhaps I should stop with the anecdotes and just leave you with some words of wisdom. I actually don't have any, so I'll just quote somebody
+> Run, rabbit run.  
+> Dig that hole, forget the sun,  
+> And when at last the work is done  
+> Don't sit down it's time to dig another one.
+>  
+> For long you live and high you fly  
+But only if you ride the tide  
+And balanced on the biggest wave   
+You race towards an early grave.  
+ - Pink Floyd, from the song "Breath", *The Dark Side of the Moon*
