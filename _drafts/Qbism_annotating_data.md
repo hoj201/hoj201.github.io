@@ -4,6 +4,32 @@ title: The Quantum Mechanics of Amazon Mechanical Turk
 tag: math, physics, data science
 ---
 
+<!--
+Operator theory perspective:
+H_1: takes a time series and splits it into chunks
+H_2: takes a single vid and tells me the probability that the person in it is walking.
+
+H_2 \circ H_1: takes a video and computes the probability that a person is walking in each video
+
+H_1 \circ H_2: takes a video and computes the probability that ..
+???  Okay, these are not the operators, but I'm sure they exist
+
+We want H_1, H_2 to be elements of an algebra such that [H_1,H_2] = 1
+
+Then we can use some theorem in the Lang's Real Analysis book to assert the existence of a Hilbert space on which these operators act.
+
+Moreover, since there is really only one Hilbert space (up to isomorphism) we can asert the existence of a Unitary transformation such that H_1 = \hat{x} and H_2 = -i \hat{d/dx}.
+Then the Fourier Uncertainty Principle comes into play.
+
+And bang, we have a quantum theory of AMT.
+
+PHILOSOPHICAL IMPLICATIONS: Space is not real just like "walking" is not "real"
+
+this links to Aristotle vs Plato which links to the Yoneda Lemma (observations
+are what matters)
+
+-->
+
 I needed to make an algorithm for detecting walking. To do this we need annotated data. That means watching many videos and labelling windows of time (e.g. subject started walking in frame 36... subject stopped walking in frame 110).
 
 The standard route to annotation is Amazon Mechanical Turk (heretofore referred to as AMT).  Why is it called "Mechanical Turk" you ask?  The reason is because....
