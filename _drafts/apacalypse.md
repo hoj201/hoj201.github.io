@@ -3,6 +3,10 @@ layout: post
 title: Minimizing Waste
 tags: apocalypse
 ---
+<!-- My four year old son should have a 529 fund by now right?
+The tax incentives are good but not exactly jaw-dropping.  You can
+-->
+
 
 <!-- we should destroy mosquitoes -->
 
